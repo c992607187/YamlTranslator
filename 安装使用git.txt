@@ -1,0 +1,15 @@
+安装git客户端
+
+1>windows用户请下载
+http://msysgit.github.com/
+
+2>一路next，安装成功后， 回到C盘，或任何文件夹下，点鼠标右键会多出一些菜单
+如 Git Init Hear、Git Bash、Git Gui ， 说明安装成功。
+
+配置Git
+
+1>打开客户端 进入 D:\Documents\MyRepository 
+$ git init  #初始化 创建本地git
+
+2>在本地创建ssh key
+$ ssh-keygen -t rsa -C "992607187@qq.com"
